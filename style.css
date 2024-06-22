@@ -792,6 +792,7 @@ footer {
     background: none;
     padding-left: 1rem;
     color: #fff;
+    font-size: 16px;
 }
 
 .common-form input[type="submit"] {
@@ -815,19 +816,38 @@ footer {
     letter-spacing: 0.5px;
 }
 
-.common-form input::placeholder {
-    color: var(--color6);
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 .common-form input:focus {
     outline: none;
 }
 
 .common-form-footer {
     height: 2.5rem;
+}
+
+.common-form form .homepageFormText {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 2px solid var(--color2);
+    padding-left: 1rem;
+    margin: 1rem 0rem;
+    color: #fff;
+    font-size: 16px;
+}
+
+.common-form form .homepageFormText:focus {
+    outline: none;
+}
+
+.common-form input::placeholder, .common-form form .homepageFormText::placeholder {
+    color: var(--color6);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.common-form form .homepageFormText::placeholder {
+    font-size: 15px;
 }
 
 
