@@ -549,6 +549,16 @@ p {
     justify-content: center;
 }
 
+#destinations::after {
+    content: '';
+    background-color: #cfcfcf;
+    height: 45vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+
 .destination-head h1 {
     color: #000;
     display: flex;
