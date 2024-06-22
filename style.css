@@ -660,6 +660,12 @@ p {
     box-shadow: var(--shadow2);
 }
 
+#destinationSvg {
+    position: absolute;
+    bottom: 0rem;
+    z-index: -1;
+}
+
 
 /* About Section */
 
