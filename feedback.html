@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TourPlanner Feedback</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Merienda:wght@300..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    :root {
+        --color1: #a2cf8d;
+        --color2: #1a662b;
+        --color3: #8fd070;
+        --color4: #5c9d7d;
+        --color5: #0000001c;
+        --color6: #757575;
+        --color7: #1a662ad6;
+        --shadow1: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        --shadow2: 1px 4px 10px -2px #a6a6a6;
+        --shadow3: 0px 3px 10px -2px #9a9a9a;
+        --shadow4: 0px 1px 25px -5px #7d7d7d;
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+
+    .feedback-container {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--color2);
+    }
+
+    .feedback {
+        background-color: #fff;
+        color: var(--color2);
+        height: 80vh;
+        width: 65%;
+        border-radius: 5px;
+        padding: 2rem;
+        overflow: hidden;
+        box-shadow: var(--shadow1);
+        overflow: scroll;
+    }
+
+    .feedback::-webkit-scrollbar {
+        display: none;
+    }
+
+    .feedback h2 {
+        color: var(--color2);
+        margin-bottom: 1.5rem;
+        font-weight: 500;
+    }
+
+    .feedback label {
+        text-transform: uppercase;
+        font-size: 13px;
+    }
+
+    .feedback input {
+        border: 2px solid var(--color2);
+        border-radius: 4px;
+        color: var(--color2);
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .feedback input[type="submit"] {
+        color: var(--color2);
+        display: inline;
+        width: 10rem;
+        margin-right: 0.5rem;
+    }
+
+    .feedback input[type="reset"] {
+        display: inline;
+        width: 10rem;
+        cursor: pointer;
+        font-size: 13px;
+        letter-spacing: 1px;
+        transition: 0.5s;
+        text-transform: uppercase;
+    }
+
+    .feedback input[type="reset"]:hover {
+        color: #fff;
+        background-color: var(--color2);
+        letter-spacing: 0.5px;
+    }
+
+    .feedback textarea {
+        display: block;
+        width: 100%;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        padding-left: 0.5rem;
+        border: 2px solid var(--color2);
+        border-radius: 5px;
+        padding-top: 0.5rem;
+    }
+
+    .feedback textarea:focus {
+        outline: none;
+    }
+
+    .action-btn input {
+        margin-bottom: 0;
+    }
+</style>
+
+<body>
+    <div class="feedback-container">
+        <div class="feedback common-form">
+            <h2>Feedback</h2>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="feedback-text">Message</label>
+                <textarea placeholder="Write your feedback here" name="feedback-text" id="feedback-text" rows="8"
+                    required></textarea>
+                <div class="action-btn">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
