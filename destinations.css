@@ -1,0 +1,60 @@
+#navigation {
+    position: fixed;
+    top: 0;
+}
+.search-li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.srch-bar {
+    background-color: #fff;
+    /* border-color: var(--color2); */
+    color: var(--color2);
+    padding-left: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+    visibility: visible;
+    opacity: 1;
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    transform: translateX(100%);
+    transition: all 0.5s ease;
+    border-radius: 0;
+    box-shadow: var(--shadow2);
+}
+
+.srch-bar:focus {
+    outline: none;
+}
+
+.srch-bar:hover {
+    background-color: #fff;
+}
+
+#srchLogoWht {
+    display: none;
+}
+
+.home-container {
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-top: 5rem;
+    padding: 0rem 6rem;
+    padding-right: 14rem;
+    line-height: 6rem;
+}
+
+.home-container .head-quote {
+    font-size: 5rem;
+}
+
+#destinations {
+    height: 280vh;
+}
+
+.destination-head {
+    padding-top: 0rem;
+}
