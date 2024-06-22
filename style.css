@@ -87,9 +87,8 @@ p {
 .common-head h1::after {
     content: '';
     height: 0.18rem;
-    width: 60%;
+    width: 50%;
     position: absolute;
-    left: 20%;
     bottom: 0;
     background-color: var(--color2);
 }
@@ -552,6 +551,8 @@ p {
 
 .destination-head h1 {
     color: #000;
+    display: flex;
+    justify-content: center;
 }
 
 .destination-lists-slider {
@@ -696,7 +697,7 @@ p {
 .about-head h1 {
     color: #fff;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .about-head h1:after {
