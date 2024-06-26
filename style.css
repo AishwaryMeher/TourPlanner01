@@ -817,7 +817,6 @@ footer {
 .common-form input[type="submit"] {
     border: 2px solid var(--color2);
     /* background-color: var(--color2); */
-    height: 2.5rem;
     width: 10rem;
     border-radius: 5px;
     cursor: pointer;
