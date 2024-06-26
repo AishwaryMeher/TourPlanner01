@@ -744,7 +744,7 @@ footer {
     position: relative;
     bottom: 0;
     z-index: 1;
-    background: var(--color8);
+    background: #1a1a1a;
 }
 
 #footer .inner-footer01 {
@@ -783,6 +783,14 @@ footer {
 
 #footer .nav-li {
     padding: 0.3rem;
+}
+
+.inner-footer011 ul li a {
+    letter-spacing: 0.4px;
+}
+
+.inner-footer011 ul li a:hover {
+    letter-spacing: 0px;
 }
 
 
