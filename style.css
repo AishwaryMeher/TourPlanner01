@@ -328,6 +328,7 @@ p {
 .nav-li a:hover {
     color: var(--color1);
     color: var(--color2);
+    transform: translateY(-0.1rem);
 }
 
 .nav-li a img {
@@ -358,6 +359,7 @@ p {
     transition: all 0.4s ease-in-out;
     z-index: 4;
     right: 22rem;
+    top: 3rem;
     height: 20rem;
     width: 14rem;
     box-shadow: var(--shadow1);
