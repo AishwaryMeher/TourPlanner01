@@ -483,6 +483,7 @@ p {
     caret-color: var(--color2);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    font-size: 16px;
 }
 
 .search-bar input::placeholder {
