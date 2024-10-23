@@ -52,15 +52,18 @@ const cancelBtn = document.querySelector('.cancel-btn');
 
 const timeOut = setTimeout(() => {
     signUpReveal.style.transform = "translateY(0%)";
+    signUpReveal.style.opacity = "1";
 },10000);
 
 signUpButton.addEventListener("click", () => {
     signUpReveal.style.transform = "translateY(0%)";
+    signUpReveal.style.opacity = "1";
     clearTimeout(timeOut);
 });
 
 cancelBtn.addEventListener("click", () => {
     signUpReveal.style.transform = "translateY(100%)";
+    signUpReveal.style.opacity = "0";
     signUpForm.reset();
     logInForm.reset();
 });
