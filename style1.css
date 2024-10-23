@@ -1,5 +1,40 @@
+@media screen and (max-width:1300px) {
+    .inner-footer011 {
+            flex-direction: column;
+    }
+
+    .inner-footer011 ul li {
+            margin-left: 0;
+    }
+}
+
 @media screen and (max-width:865px) {
     .nav-ul {
             display: none;
+    }
+    #searchDestination {
+        padding-top: 5rem;
+    }
+    .search-div {
+        flex-direction: column;
+        padding: 0rem 0rem;
+    }
+    .search-bar input {
+        display: none;
+    }
+    .search-bar h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .inner-footer01 {
+            padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .search-div {
+        padding: 0rem 2rem;
     }
 }
