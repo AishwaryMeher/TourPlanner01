@@ -888,7 +888,7 @@ footer {
     height: 100vh;
     width: 100%;
     visibility: visible;
-    opacity: 1;
+    opacity: 0;
     z-index: 500;
     position: fixed;
     top: 0;
